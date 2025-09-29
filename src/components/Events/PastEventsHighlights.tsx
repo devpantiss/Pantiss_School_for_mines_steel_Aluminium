@@ -45,12 +45,12 @@ const pastEvents = [
   },
 ];
 
-interface PastEvent {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-}
+// interface PastEvent {
+//   id: number;
+//   title: string;
+//   description: string;
+//   image: string;
+// }
 
 const PastEventsHighlights: React.FC = () => {
   return (
