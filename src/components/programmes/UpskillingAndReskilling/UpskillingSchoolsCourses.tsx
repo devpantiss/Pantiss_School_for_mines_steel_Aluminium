@@ -1,5 +1,5 @@
 import React, { memo, useState, useEffect, useCallback } from "react";
-import { ChevronLeft, ChevronRight, CheckCircle, Play, Pause, Users, Award, Clock, ArrowUpRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, CheckCircle, Play, Pause, Award, Clock, ArrowUpRight } from "lucide-react";
 
 // Define interfaces for type safety
 interface Course {
