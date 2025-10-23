@@ -41,7 +41,7 @@ const schools: School[] = [
       "Industry-certified programs in mining safety, steel plant operations, and aluminium processing designed for fast-track workforce readiness.",
     image:
       "https://images.unsplash.com/photo-1504917595217/d4dc5ebe6122?w=800&h=600&fit=crop&crop=entropy",
-    gradient: "from-amber-500/20 via-orange-500/20 to-red-500/20",
+    gradient: "from-amber-500/20 via-orange-500/20 to-purple-500/20",
     totalStudents: 2840,
     successRate: 94,
     courses: [
@@ -58,7 +58,7 @@ const schools: School[] = [
       "Specialized certifications in renewable energy, power plant operations, and electrical systems aligned with emerging energy industry needs.",
     image:
       "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&h=600&fit=crop&crop=entropy",
-    gradient: "from-yellow-400/20 via-orange-400/20 to-red-400/20",
+    gradient: "from-yellow-400/20 via-orange-400/20 to-purple-400/20",
     totalStudents: 3250,
     successRate: 96,
     courses: [

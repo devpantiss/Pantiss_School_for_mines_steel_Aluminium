@@ -33,7 +33,7 @@ const cardData: Card[] = [
       { number: "5,000+", description: "Workers Connected" },
       { number: "100+", description: "Districts Covered" },
     ],
-    bgColor: "bg-red-900",
+    bgColor: "bg-purple-900",
     textColor: "text-white",
     icon: <FiUsers className="text-7xl" />,
     position: "top-64 left-60",

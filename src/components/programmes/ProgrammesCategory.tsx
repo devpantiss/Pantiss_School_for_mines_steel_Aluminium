@@ -18,7 +18,7 @@ const programmes = [
     comingSoon: false,
     image: "https://factly.in/wp-content/uploads//2022/04/National-Apprenticeship-Promotion-Scheme_Image-1.jpg",
     highlights: ["Hands-On Training", "Industry Exposure", "Dual Learning"],
-    path: "/our-programmes/apprenticeship-dual-training",
+    path: "/our-programmes/apprenticeship-and-dual-training",
   },
   {
     title: "Diploma & Advanced Diploma Programs",
@@ -26,7 +26,7 @@ const programmes = [
     comingSoon: false,
     image: "https://res.cloudinary.com/djtzx6wo7/image/upload/v1756907996/WhatsApp_Image_2025-09-03_at_7.27.27_PM_s7fkrs.jpg",
     highlights: ["Technical Skills", "Supervisory Training", "Career Growth"],
-    path: "/our-programmes/diploma-advanced",
+    path: "/our-programmes/diploma-programs",
   },
   {
     title: "Skill Development Bootcamps",
@@ -48,7 +48,7 @@ const programmes = [
     comingSoon: false,
     image: "https://res.cloudinary.com/dgtc2fvgu/image/upload/v1740387857/7cf81b40-cb85-47b0-bc17-5ed47fa210ed_viwshh.jpg",
     highlights: ["Technology Adaptation", "Career Longevity", "Skill Enhancement"],
-    path: "/our-programmes/upskilling-reskilling",
+    path: "/our-programmes/upskilling-and-reskilling-program",
   },
   {
     title: "Industry-Aligned Certification Programs",
@@ -56,7 +56,7 @@ const programmes = [
     comingSoon: false,
     image: "https://res.cloudinary.com/dgtc2fvgu/image/upload/v1742126787/E-FvYHdVIAYEXa9_efneu2.webp",
     highlights: ["High Employability", "Industry Standards", "Certification"],
-    path: "/our-programmes/industry-certifications",
+    path: "/our-programmes/industry-alligned-certification",
   },
   {
     title: "Continuing Professional Development (CPD)",

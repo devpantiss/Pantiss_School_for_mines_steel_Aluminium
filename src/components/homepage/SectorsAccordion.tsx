@@ -35,7 +35,7 @@ const sectorData: Sector[] = [
   },
   {
     title: "Mechanical Maintenance",
-    color: "bg-red-700",
+    color: "bg-purple-700",
     description: "Training in machinery maintenance and repair for optimal industrial performance, NSQF Levels 4-5.",
     icon: FaTools,
     backgroundImage: "https://res.cloudinary.com/djtzx6wo7/image/upload/v1758374125/HEMMmine_jatdcd.png",

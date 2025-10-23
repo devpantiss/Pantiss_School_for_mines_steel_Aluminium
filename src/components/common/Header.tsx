@@ -45,7 +45,7 @@ const navLinks: NavLink[] = [
     subLinks: [
       {
         name: "View All",
-        path: "/all-programmes",
+        path: "/our-programmes",
         description: "Explore the complete list of programs.",
       },
       {

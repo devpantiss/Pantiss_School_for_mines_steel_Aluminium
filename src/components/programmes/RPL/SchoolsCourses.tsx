@@ -29,7 +29,7 @@ const schools: School[] = [
     shortName: "Mines & Steel",
     description: "Leading industrial skills training in mining, steel production, and aluminium processing",
     image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&h=600&fit=crop&crop=entropy",
-    gradient: "from-amber-500/20 via-orange-500/20 to-red-500/20",
+    gradient: "from-amber-500/20 via-orange-500/20 to-purple-500/20",
     totalStudents: 2840,
     successRate: 94,
     courses: [
@@ -44,7 +44,7 @@ const schools: School[] = [
     shortName: "Power & Energy",
     description: "Renewable energy and power generation skills for the sustainable future",
     image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&h=600&fit=crop&crop=entropy",
-    gradient: "from-yellow-400/20 via-orange-400/20 to-red-400/20",
+    gradient: "from-yellow-400/20 via-orange-400/20 to-purple-400/20",
     totalStudents: 3250,
     successRate: 96,
     courses: [
@@ -218,7 +218,7 @@ const RplSchoolsCarousel: React.FC = () => {
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-r from-green-600/30 to-purple-600/30 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-r from-green-600/30 to-green-600/30 rounded-full blur-3xl animate-pulse delay-1000"></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-gradient-to-r from-red-600/20 to-orange-600/20 rounded-full blur-3xl animate-pulse delay-500"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-gradient-to-r from-purple-600/20 to-orange-600/20 rounded-full blur-3xl animate-pulse delay-500"></div>
         </div>
       </div>
 

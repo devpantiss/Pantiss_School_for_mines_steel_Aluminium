@@ -60,7 +60,7 @@ const PastEventsHighlights: React.FC = () => {
         <div className="absolute w-80 h-80 bg-green-500 rounded-full opacity-20 blur-3xl top-1/3 right-20 animate-pulse-slow delay-1000"></div>
         <div className="absolute w-56 h-56 bg-purple-500 rounded-full opacity-20 blur-3xl bottom-20 left-1/4 animate-pulse-slow delay-2000"></div>
         <div className="absolute w-72 h-72 bg-yellow-500 rounded-full opacity-20 blur-3xl bottom-10 right-1/4 animate-pulse-slow delay-3000"></div>
-        <div className="absolute w-48 h-48 bg-red-500 rounded-full opacity-20 blur-3xl top-1/2 left-1/2 animate-pulse-slow delay-1500"></div>
+        <div className="absolute w-48 h-48 bg-purple-500 rounded-full opacity-20 blur-3xl top-1/2 left-1/2 animate-pulse-slow delay-1500"></div>
       </div>
       <div className="max-w-6xl mx-auto relative z-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mb-12 animate-fade-in">

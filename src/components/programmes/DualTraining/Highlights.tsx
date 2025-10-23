@@ -76,7 +76,7 @@ const DualTrainingHighlights: React.FC<DualTrainingHighlightsProps> = () => {
       {/* Subtle Background Accents with Glassmorphism */}
       <div className="absolute inset-0 pointer-events-none z-0">
         <div className="absolute top-16 left-16 w-80 h-80 bg-green-500/10 rounded-full blur-3xl opacity-60 animate-pulse"></div>
-        <div className="absolute bottom-16 right-16 w-80 h-80 bg-red-500/10 rounded-full blur-3xl opacity-60 animate-pulse delay-1000"></div>
+        <div className="absolute bottom-16 right-16 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl opacity-60 animate-pulse delay-1000"></div>
         <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-gray-900/5 rounded-full blur-2xl opacity-50 -translate-x-1/2 -translate-y-1/2"></div>
       </div>
 
@@ -91,7 +91,7 @@ const DualTrainingHighlights: React.FC<DualTrainingHighlightsProps> = () => {
           className="text-3xl sm:text-4xl lg:text-5xl text-white font-extrabold text-center mb-16 tracking-tight font-sans leading-tight"
         >
           Key Highlights
-          <span className="block mt-2 h-1 w-32 mx-auto bg-gradient-to-r from-green-600 to-red-600 rounded-full"></span>
+          <span className="block mt-2 h-1 w-32 mx-auto bg-gradient-to-r from-green-600 to-purple-600 rounded-full"></span>
         </motion.h2>
 
         {/* Highlights Grid */}
@@ -109,7 +109,7 @@ const DualTrainingHighlights: React.FC<DualTrainingHighlightsProps> = () => {
                 shadow-[0_8px_32px_rgba(239,68,68,0.15)] hover:shadow-[0_12px_48px_rgba(239,68,68,0.25)]
                 p-6 group hover:border-green-500/70
                 transform hover:scale-105 transition-all duration-500 ease-out
-                before:absolute before:inset-0 before:bg-gradient-to-r before:from-green-500/5 before:to-red-500/5
+                before:absolute before:inset-0 before:bg-gradient-to-r before:from-green-500/5 before:to-purple-500/5
                 before:rounded-3xl before:opacity-0 before:transition-opacity before:duration-500
                 hover:before:opacity-100 focus-visible:ring-2 focus-visible:ring-green-500
               "

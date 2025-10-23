@@ -279,7 +279,7 @@ const CertificationOverview: React.FC<CertificationOverviewProps> = () => {
             className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6"
           >
             <div className="bg-white/5 rounded-xl p-6 text-center">
-              <div className="text-3xl font-bold text-red-500">{currentImpact.courses}</div>
+              <div className="text-3xl font-bold text-purple-500">{currentImpact.courses}</div>
               <div className="text-white/80">Courses Offered</div>
             </div>
             <div className="bg-white/5 rounded-xl p-6 text-center">

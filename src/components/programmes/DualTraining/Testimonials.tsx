@@ -77,7 +77,7 @@ const defaultImage = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAA
 
 const NextArrow: React.FC<{ onClick?: () => void }> = ({ onClick }) => (
   <div
-    className="absolute -right-3 top-1/2 transform -translate-y-1/2 cursor-pointer text-red-600 rounded-full bg-white/10 p-2 hover:bg-white/20 z-10 transition-all duration-300"
+    className="absolute -right-3 top-1/2 transform -translate-y-1/2 cursor-pointer text-purple-600 rounded-full bg-white/10 p-2 hover:bg-white/20 z-10 transition-all duration-300"
     onClick={onClick}
     aria-label="Next testimonial"
     role="button"
@@ -101,7 +101,7 @@ const NextArrow: React.FC<{ onClick?: () => void }> = ({ onClick }) => (
 
 const PrevArrow: React.FC<{ onClick?: () => void }> = ({ onClick }) => (
   <div
-    className="absolute -left-3 top-1/2 transform -translate-y-1/2 cursor-pointer text-red-600 rounded-full bg-white/10 p-2 hover:bg-white/20 z-10 transition-all duration-300"
+    className="absolute -left-3 top-1/2 transform -translate-y-1/2 cursor-pointer text-purple-600 rounded-full bg-white/10 p-2 hover:bg-white/20 z-10 transition-all duration-300"
     onClick={onClick}
     aria-label="Previous testimonial"
     role="button"
@@ -206,7 +206,7 @@ const TestimonialSectionDualTraining: React.FC = () => {
                 key={tab}
                 className={`py-3 px-4 text-lg font-semibold rounded-lg transition ${
                   activeTab === tab
-                    ? "bg-red-600 text-white shadow"
+                    ? "bg-purple-600 text-white shadow"
                     : "bg-white/10 text-white/80 hover:bg-white/20"
                 }`}
                 onClick={() => setActiveTab(tab as "Students" | "Trainers" | "Industries")}
@@ -220,7 +220,7 @@ const TestimonialSectionDualTraining: React.FC = () => {
         <div className="w-full md:w-3/4">
           <h2 className="text-5xl font-semibold text-white text-center mb-12 relative tracking-wide">
             Stories from Apprentices, Mentors & Industry
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-red-600 to-transparent rounded-lg" />
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-purple-600 to-transparent rounded-lg" />
           </h2>
           <Slider ref={sliderRef} {...settings}>
             {filteredTestimonials.length > 0 ? (
@@ -261,7 +261,7 @@ const TestimonialSectionDualTraining: React.FC = () => {
                     </div>
 
                     {/* Quotation Mark Icon */}
-                    <div className="absolute bottom-6 right-6 text-red-600 text-4xl font-bold animate-pulse-slow">
+                    <div className="absolute bottom-6 right-6 text-purple-600 text-4xl font-bold animate-pulse-slow">
                       “
                     </div>
                   </div>

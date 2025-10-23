@@ -107,7 +107,7 @@ const Partners: React.FC = () => {
 
       {/* Extra small blurred circles for depth */}
       <div className="absolute top-10 right-1/3 w-16 h-16 bg-purple-500 rounded-full blur-xl opacity-40"></div>
-      <div className="absolute top-1/4 right-10 w-12 h-12 bg-red-500 rounded-full blur-lg opacity-40"></div>
+      <div className="absolute top-1/4 right-10 w-12 h-12 bg-purple-500 rounded-full blur-lg opacity-40"></div>
       <div className="absolute bottom-20 left-10 w-14 h-14 bg-blue-400 rounded-full blur-lg opacity-30"></div>
       <div className="absolute bottom-1/4 right-1/2 w-10 h-10 bg-green-500 rounded-full blur-md opacity-40"></div>
       <div className="absolute top-2/3 left-1/5 w-20 h-20 bg-orange-500 rounded-full blur-2xl opacity-30"></div>
