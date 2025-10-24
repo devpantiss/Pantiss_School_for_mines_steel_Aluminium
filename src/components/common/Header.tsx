@@ -82,17 +82,17 @@ const navLinks: NavLink[] = [
     subLinks: [
       {
         name: "Departments",
-        path: "/academics/departments",
+        path: "/academics/our-departments",
         description: "Explore specialized schools across PSU.",
       },
       {
         name: "Curriculum",
-        path: "/academics/curriculum",
+        path: "/academics/our-curriculum",
         description: "Learn about our holistic and industry-aligned curriculum.",
       },
       {
         name: "Academic Calendar",
-        path: "/academics/calendar",
+        path: "/academics/academic-calender",
         description: "Stay updated with important academic dates.",
       },
       {

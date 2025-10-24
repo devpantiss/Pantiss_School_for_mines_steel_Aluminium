@@ -14,6 +14,10 @@ import DiplomaAndAdvancedDiplomaPage from "./pages/Programmes/DiplomaAndAdvanced
 import UpskillingAndReskillingPage from "./pages/Programmes/UpskillingAndReskillingPage";
 import IndustryAllignedCertificationPage from "./pages/Programmes/IndustryAllignedCertificationPage";
 import DepartmentsPage from "./pages/DepartmentsPage";
+import CurriculumPage from "./pages/CurriculumPage";
+import AcademicCalendarPage from "./pages/AcademicCalenderPage";
+import FacultiesPage from "./pages/FacultiesPage";
+import TrainingMethodologyPage from "./pages/TrainingMethodologyPage";
 
 function LayoutWrapper() {
   const location = useLocation();
@@ -39,6 +43,10 @@ function LayoutWrapper() {
         <Route path="/our-programmes/upskilling-and-reskilling-program" element={<UpskillingAndReskillingPage />} />
         <Route path="/our-programmes/industry-alligned-certification" element={<IndustryAllignedCertificationPage />} />
         <Route path="/academics/our-departments" element={<DepartmentsPage />} />
+        <Route path="/academics/our-curriculum" element={<CurriculumPage />} />
+        <Route path="/academics/academic-calender" element={<AcademicCalendarPage />} />
+        <Route path="/academics/faculties" element={<FacultiesPage />} />
+        <Route path="/academics/training-methodology" element={<TrainingMethodologyPage />} />
 
 
       </Routes>
