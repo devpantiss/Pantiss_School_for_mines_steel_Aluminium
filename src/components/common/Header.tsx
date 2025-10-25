@@ -107,42 +107,48 @@ const navLinks: NavLink[] = [
       },
     ],
   },
+  // {
+  //   name: "Admissions",
+  //   description:
+  //     "Start your journey with PSU. Find admission guidelines, eligibility, and how to apply.",
+  //   subLinks: [
+  //     {
+  //       name: "How to Apply",
+  //       path: "/admissions/how-to-apply",
+  //       description: "Step-by-step process to apply for PSU programs.",
+  //     },
+  //     {
+  //       name: "Eligibility",
+  //       path: "/admissions/eligibility",
+  //       description: "Check program-specific eligibility criteria.",
+  //     },
+  //     {
+  //       name: "Selection Process",
+  //       path: "/admissions/selection-process",
+  //       description: "Financial aid and scholarship opportunities.",
+  //     },
+  //     {
+  //       name: "Fee Structure",
+  //       path: "/admissions/fee-structure",
+  //       description: "Financial aid and scholarship opportunities.",
+  //     },
+  //     {
+  //       name: "Scholarships & Financial Aid",
+  //       path: "/admissions/scholarships-and-financial-aid",
+  //       description: "Financial aid and scholarship opportunities.",
+  //     },
+  //     {
+  //       name: "Important Dates",
+  //       path: "/admissions/dates",
+  //       description: "Application deadlines and admission cycles.",
+  //     },
+  //   ],
+  // },
   {
     name: "Admissions",
+    path: "/admissions",
     description:
-      "Start your journey with PSU. Find admission guidelines, eligibility, and how to apply.",
-    subLinks: [
-      {
-        name: "How to Apply",
-        path: "/admissions/how-to-apply",
-        description: "Step-by-step process to apply for PSU programs.",
-      },
-      {
-        name: "Eligibility",
-        path: "/admissions/eligibility",
-        description: "Check program-specific eligibility criteria.",
-      },
-      {
-        name: "Selection Process",
-        path: "/admissions/selection-process",
-        description: "Financial aid and scholarship opportunities.",
-      },
-      {
-        name: "Fee Structure",
-        path: "/admissions/fee-structure",
-        description: "Financial aid and scholarship opportunities.",
-      },
-      {
-        name: "Scholarships & Financial Aid",
-        path: "/admissions/scholarships-and-financial-aid",
-        description: "Financial aid and scholarship opportunities.",
-      },
-      {
-        name: "Important Dates",
-        path: "/admissions/dates",
-        description: "Application deadlines and admission cycles.",
-      },
-    ],
+      "Stay updated with upcoming seminars, workshops, fests, and industry talks.",
   },
   {
     name: "Events",

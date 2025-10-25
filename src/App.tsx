@@ -18,6 +18,7 @@ import CurriculumPage from "./pages/CurriculumPage";
 import AcademicCalendarPage from "./pages/AcademicCalenderPage";
 import FacultiesPage from "./pages/FacultiesPage";
 import TrainingMethodologyPage from "./pages/TrainingMethodologyPage";
+import AdmissionsPage from "./pages/AdmissionsPage";
 
 function LayoutWrapper() {
   const location = useLocation();
@@ -47,8 +48,7 @@ function LayoutWrapper() {
         <Route path="/academics/academic-calender" element={<AcademicCalendarPage />} />
         <Route path="/academics/faculties" element={<FacultiesPage />} />
         <Route path="/academics/training-methodology" element={<TrainingMethodologyPage />} />
-
-
+        <Route path="/admissions" element={<AdmissionsPage />} />
       </Routes>
       {!hideLayout && <Footer />}
     </>
